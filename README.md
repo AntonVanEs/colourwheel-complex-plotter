@@ -33,10 +33,10 @@ plot("float(mpmath.zeta(z).real)+i*float(mpmath.zeta(z).imag)",-1,2,0,35,22.5)
 
 #### controls
 
--press left mouse on the sreen to get the coordinates and the returned value.
--press [S] to save the current plot, a popup will apear to choose a path. The graph wil by default save as .png image.
--press [=] to zoom in, centering on the mouse position. By default it zooms in with a factor of 1.5, however this can easyly be changed using `zoomFactor=`. The command to get directly to the zoomed in state will be printed.
--press [-] to zoom out, centering on the mouse position. By default it zooms out with the zoomFactor. The command to get directly to the zoomed out state will be printed.
--press [PAGE UP] to increase the resolusion by the zoomFactor. 
--press [PAGE DOWN] to decrease the resolusion by the zoomFactor. 
--press [ESC] to close the window and stop the program.
+- Press left mouse on the sreen to get the coordinates and the returned value.
+- Press [S] to save the current plot, a popup will apear to choose a path. The graph wil by default save as .png image.
+- Press [=] to zoom in, centering on the mouse position. By default it zooms in with a factor of 1.5, however this can easyly be changed using `zoomFactor=`. The command to get directly to the zoomed in state will be printed.
+- Press [-] to zoom out, centering on the mouse position. By default it zooms out with the zoomFactor. The command to get directly to the zoomed out state will be printed.
+- Press [PAGE UP] to increase the resolusion by the zoomFactor. 
+- Press [PAGE DOWN] to decrease the resolusion by the zoomFactor. 
+- Press [ESC] to close the window and stop the program.
